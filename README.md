@@ -91,3 +91,4 @@ class Autoencoder(nn.Module):
         reconstructed = self.decoder(latent)
         return reconstructed
 ```
+## Output of the AutoEncoder
