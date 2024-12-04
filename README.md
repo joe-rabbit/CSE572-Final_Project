@@ -9,6 +9,8 @@ pip install convkan
 ```
 
 ### AutoEncoder Architecture 
+AutoEncoders are a type of artificial neural network designed for unsupervised learning, primarily used to learn efficient, compressed representations of input data. They consist of two main components: an encoder that compresses the input into a lower-dimensional latent space and a decoder that reconstructs the input from this compressed representation, aiming to minimize information loss. AutoEncoders have applications in dimensionality reduction, noise removal, anomaly detection, and feature extraction. Variants such as Convolutional AutoEncoders and Variational AutoEncoders extend their functionality to tasks like image processing and generative modeling. For our project, we aim to implement and analyze AutoEncoder architecture to explore its effectiveness.
+
 
 ### Our AutoEncoder Architecture
 Changed the Convolutional Layers to ConvKANs. 
@@ -92,3 +94,4 @@ class Autoencoder(nn.Module):
         return reconstructed
 ```
 ## Output of the AutoEncoder
+![Autoencoder with ConvKANs](https://github.com/user-attachments/assets/b839ab80-83da-4e43-85a9-e56a08c5ffb1)
